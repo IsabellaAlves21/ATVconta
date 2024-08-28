@@ -15,6 +15,5 @@ $contaPoupanca = new ContaPoupanca("Ana Oliveira", "54321", 2000.00, "01/01");
 echo "<h1>Dados da Conta Especial</h1>";
 echo "<pre>" . $contaEspecial->exibirDadosConta() . "</pre>";
 
-echo "<h1>Dados da Conta Poupança</h1>";
-echo "<pre>" . $contaPoupanca->exibirDadosConta() . "</pre>";
+
 ?>
